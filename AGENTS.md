@@ -241,6 +241,15 @@ Maintenance: `~/venvs/timelink/bin/pip install -U timelink` (or `git pull`
 in the checkout, for the editable form). To pin a research run to a
 release, create a versioned sibling venv such as `~/venvs/timelink-1.2.0`.
 
+## VS Code extension for Kleio
+
+A Kleio extension for VS Code (syntax support for `.cli` files) ships in
+`extras/vscode/`. Install the version provided with:
+
+```bash
+code --install-extension extras/vscode/kleio-1.0.9.vsix
+```
+
 ## Project specifics
 
 <!-- Describe here the source collections of this project, the conventions
