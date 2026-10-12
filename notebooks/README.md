@@ -8,13 +8,15 @@ You also need to install Docker.
 
 1. Install VSCode from https://code.visualstudio.com/download
 2. Install the Python VSCode extension from  https://marketplace.visualstudio.com/items?itemName=ms-python.python
-3. After restarting VS Code and set up your environment as instructed in step 2, install the support libraries:
-   * Ctrl/Cmd+Shift+P Python create environment https://code.visualstudio.com/docs/python/environments
-   * choose Python interpreter from list
-   * accept suggestion to install notebooks/requirements.txt
+3. Use one shared timelink venv outside this project, not a per-project one — see "Python environment" in [AGENTS.md](../AGENTS.md). If you do not have one yet:
+   * `python3 -m venv ~/venvs/timelink`
+   * `~/venvs/timelink/bin/pip install -r notebooks/requirements.txt`
+   * `~/venvs/timelink/bin/python -m ipykernel install --user --name timelink --display-name "Python (timelink)"`
+
+   Do not accept the VS Code "Create Environment" suggestion: it would create a `.venv` inside this project.
 4. Install jupyter extension
 5. Open notebook [00-tutorial-index.ipynb](00-tutorial-index.ipynb)
-6. In the upper right corner select the environment you just created
+6. In the upper right corner select the **Python (timelink)** kernel
 7. Install Docker. See https://docs.docker.com/get-docker/
 
 See the notebook [02-tutorial.ipynb](02-tutorial.ipynb) for a tutorial on how to use `timelink` in a notebook.
