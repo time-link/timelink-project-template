@@ -247,7 +247,7 @@ A Kleio extension for VS Code (syntax support for `.cli` files) ships in
 `extras/vscode/`. Install the version provided with:
 
 ```bash
-code --install-extension extras/vscode/kleio-1.0.9.vsix
+code --install-extension extras/vscode/kleio-1.0.20.vsix
 ```
 
 ## Project specifics

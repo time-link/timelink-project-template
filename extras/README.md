@@ -9,4 +9,4 @@ geocoding working files, images downloaded from digital libraries, validation
 data.
 
 The `vscode/` subdirectory hosts the Kleio extension for VS Code, installed
-with `code --install-extension extras/vscode/kleio-1.0.9.vsix`.
+with `code --install-extension extras/vscode/kleio-1.0.20.vsix`.
