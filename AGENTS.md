@@ -31,8 +31,9 @@ marker file in the root identifies the directory.
   and the `timelink` CLI detect this directory by that marker; without it,
   detection falls back to fragile heuristics.
 * **Never commit generated files.** Databases, backups and Kleio translation
-  byproducts (`*.err`, `*.ids`, `*.org`, `*.old`, `*.cli-renamed`, `*.rep`,
-  `strs/`) are covered by `.gitignore`; do not force-add them.
+  byproducts (`*.err`, `*.ids`, `*.org`, `*.old`, `*.cli-renamed`, `*.rpt`,
+  `*.rep`, `*.files.json`, `strs/`) are covered by `.gitignore`; do not
+  force-add them.
 * **Kleio sources are transcriptions.** Files in `sources/` are scholarly
   work, and each file is copyright of its transcriber. Never rewrite them
   mechanically; content changes go through the researcher. Validate

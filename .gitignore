@@ -1,8 +1,15 @@
 # macOS
 .DS_Store
 
+# Python
+.venv/
+__pycache__/
+
 # Jupyter
 .ipynb_checkpoints/
+
+# VS Code (machine specific settings)
+.vscode/settings.json
 
 # Environment files and secrets
 .env
@@ -16,11 +23,17 @@ database/backups/*
 *.sqlite3
 *.db
 
+# Kleio server state
+.kleio/
+.kleio.json
+
 # Kleio server translation byproducts
 *.err
 *.ids
 *.org
 *.old
 *.cli-renamed
+*.rpt
 *.rep
+*.files.json
 strs/
