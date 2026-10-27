@@ -40,6 +40,10 @@ marker file in the root identifies the directory.
   translations with the Kleio server before importing.
 * **The database is derived data.** Everything in `database/` can be rebuilt
   from `sources/` by translating and importing; treat it as disposable.
+* **Version stamping.** Changes to the template itself (layout, notebooks,
+  `.gitignore`, this file) must be recorded in `CHANGELOG.md` and bump
+  `VERSION`; projects cloned from the template record infrastructure
+  alignments in their own `CHANGELOG.md`.
 
 ## Processing the kleio sources (`.cli` files)
 

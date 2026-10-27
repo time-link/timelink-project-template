@@ -63,6 +63,12 @@ server and by the record-linking workflow.
 
 See the [Timelink documentation](https://time-link.github.io/timelink-docs/) for details.
 
+## Versioning
+
+The template carries its version in `VERSION` and its history in
+[CHANGELOG.md](CHANGELOG.md). Projects cloned from this template can record
+in their own change log which template generation they follow.
+
 ## What is Timelink?
 
 Timelink, formerly known as MHK (Micro History with Kleio) is an information system designed for processing person related information collected from historical sources.
